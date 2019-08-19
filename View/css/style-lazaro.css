@@ -1,0 +1,321 @@
+
+.form{
+   position: relative;
+    top: 4.1em;
+    width: 40%;
+    height: 60%;
+     
+    margin-right: 10em;
+    margin-top: 0.2em;
+    font-family: sans-serif;
+}
+
+
+.buttonadd{
+
+background-color:#e7e7e7; 
+color: black;
+}
+
+
+
+#logoUnebCantoDireito{
+    background-image: radial-gradient(circle,transparent, #FFFFFF 68%), url(../image/This.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 70%;
+    right: 0%;
+    bottom: 0%;
+    box-shadow: none;
+    background-size: contain;
+    transform: translate(28%);
+    opacity: 0.8;
+    border-radius: 90%;
+}
+
+
+
+.navbar{
+   position: relative;
+    top: 11em;
+    width: 50%;
+    height: 50%;
+    font-family: sans-serif;
+    display: inline;
+    
+    
+}
+
+
+.navbarConsulta{
+   position: relative;
+    top: 11em;
+    width: 50%;
+    height: 50%;
+    font-family: sans-serif;
+    display: inline;
+    
+}
+
+#logoUnebCantoEsquerdoSuperior{
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    width: 7%;
+    height: 15%;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 1px white;
+    transition: 0.6s ease;
+}
+
+#logoUnebCantoEsquerdoSuperior:hover{
+    opacity: 0.4;
+    transition: 0.6s ease;
+}
+.titlepag{
+    font-family: sans-serif;
+    position: absolute;
+    top: 40%;
+    width: 70%;
+    height: 80%;
+    left: 40%;
+    
+}
+
+.table{
+    
+    position: absolute;
+    top: -50%;
+    left: 95%;
+    right: 35%;
+    width: 99;
+    font-family:sans-serif;
+    
+}
+
+.table2{
+    border-collapse: collapse;
+    position: absolute;
+    top: -50%;
+    left:70%;
+    right: 15%;
+    width: 99;
+    font-family:sans-serif;
+    
+}
+
+.table1{
+     position: relative;
+    top: 5.1em;
+    left: 15.1em;
+    width: 99%;
+    height: 80%;
+    font-family:sans-serif;
+}
+
+
+#subtitulo{
+
+ font-family:sans-serif;
+ position:absolute;
+ left:140%;
+ top:-80%;
+  
+ }
+
+
+#subtitulo2{
+
+ font-family:sans-serif;
+ position:absolute;
+ left:140%;
+ top:-80%;
+ }
+            
+
+
+.btnCadastrar{
+    height: 10%;
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    font-family: verdana;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.btnCadastro:hover .btnCadastro:hover{
+    background-color: #FFF;
+    color: #000;
+    border: solid 3px #000000;
+    transition: 0.5s ease;
+}
+
+
+tr{
+    font-family: verdana;
+     border: 1px solid black;
+    
+}
+
+.spanErro{
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+
+.TabelaTecnico{
+    
+}
+
+.mainContainer{
+  text-align: absolute;
+}
+
+#boxAdAdmArea{
+    display: block;
+    align-items: baseline
+        
+}
+
+a{
+    text-decoration: none;
+    color: #4682B4;
+}
+
+#boxAdTec{
+    display: none;
+}
+
+#boxAdArea{
+    display: none;
+}
+
+textarea{
+    width: 200px;
+    height: 60px;
+}
+
+.divTopo{
+    width: 60%;
+    height: 4.1em;
+    color: aliceblue;
+    position: absolute;
+    background-color: #404040;
+    border-radius: 100px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 1px 1px 6px #404040;
+}
+
+.tituloPrincipal{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    margin: 0;
+    font-family: sans-serif;
+    text-shadow: 0.5px 0.5px 13px #FFFFFF;
+}
+
+body{
+    background-image: url(../image/testBack.png);
+    background-repeat: no-repeat;
+}
+
+.listOpc:hover, .listOpc:focus{
+    box-shadow: 0px 0px 1px 5px white;
+    transform: translate(-10%);
+    transition: 0.3s ease;
+}
+
+.menuOpcoes{
+    position: relative;
+    top: 4.1em;
+    width: 99%;
+    height: 80%;
+}
+
+.listaOpcoes{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    padding-top: 6em;
+    padding-left: 3em;
+}
+
+li{
+    list-style-type: none;
+    color: #000000;
+    margin-top: 2em;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    height: 1.8em;
+    text-indent: 1em;
+    border-radius: 50px;
+    line-height: 1.8em;
+    box-shadow: 0.5px 0.5px 13px white;
+    width: 30%;
+}
+
+.boxAd{
+    display: none;
+    height: 20em;
+    width: 25em;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, 0);  
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+input{
+    width: 40%;
+    border-radius: 4px;
+    margin-top: 3em;
+}
+
+textarea{
+    border-radius: 4px;
+    margin-top: 0.5em;
+    width: 340px;
+}
+
+select{
+    margin-top: 3em; 
+    border-radius: 4px;
+    width: 40%;
+}
+
+button{
+    margin-top: 3em;
+    border-radius: 7px;
+}
+
+.footerSi{
+    position: fixed;
+    background-color: #404040;
+    margin: 0;
+    width: 99%;
+    bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: cursive
+        
+}
+
+
+
+
