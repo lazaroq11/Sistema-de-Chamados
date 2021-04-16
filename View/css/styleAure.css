@@ -1,0 +1,272 @@
+h1{
+font-family: verdana;
+text-align: center;
+}
+
+tr{
+    font-family: verdana;
+    border: 1px solid black;   
+}
+
+#logoUnebCantoEsquerdoSuperior{
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    width: 7%;
+    height: 15%;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 1px white;
+    transition: 0.6s ease;
+}
+
+#logoUnebCantoEsquerdoSuperior:hover{
+    opacity: 0.4;
+    transition: 0.6s ease;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+#logoUnebCantoDireito{
+    background-image: radial-gradient(circle,transparent, #FFFFFF 68%), url(../image/This.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 70%;
+    right: 0%;
+    bottom: 0%;
+    box-shadow: none;
+    background-size: contain;
+    transform: translate(28%);
+    opacity: 0.8;
+    border-radius: 90%;
+}
+
+.spanErro{
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+
+
+.TabelaTecnico{
+    
+}
+
+.mainContainer{
+  text-align: absolute;
+}
+
+#boxAdAdmArea{
+    display: block;
+    height: 24em;
+}
+
+a{
+    text-decoration: none;
+    color: #4682B4;
+}
+
+#boxAdTec{
+    display: none;
+    height: 24em;
+}
+
+#boxAdArea{
+    display: none;
+}
+
+textarea{
+    width: 60%;
+    height: 8%;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    border: solid 2px #000000;
+    transition: 0.3s ease;
+}
+
+textarea:hover, textarea:focus{
+    width: 90%;
+    height: 30%;
+    transition: 0.3s ease;
+}
+
+.divTopo{
+    width: 65%;
+    height: 4.1em;
+    color: aliceblue;
+    position: absolute;
+    background-color: #404040;
+    border-radius: 100px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 1px 1px 6px #404040;
+}
+
+.tituloPrincipal{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    margin: 0;
+    font-family: sans-serif;
+    text-shadow: 0.5px 0.5px 13px #FFFFFF;
+}
+
+body{
+    background-image: url(../image/testBack.png);
+    background-repeat: no-repeat
+}
+
+.menuOpcoes{
+    position: relative;
+    top: 1%;
+    width: 99%;
+    height: 80%;
+}
+
+.listaOpcoes{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    padding-top: 10em;
+    padding-left: 3em;
+}
+
+
+.listOpc:hover, .listOpc:focus{
+    box-shadow: 0px 0px 1px 5px white;
+    transform: translate(-10%);
+    transition: 0.3s ease;
+}
+
+li{
+    list-style-type: none;
+    color: #000000;
+    margin-top: 2em;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    height: 1.8em;
+    text-indent: 1em;
+    border-radius: 50px;
+    line-height: 1.8em;
+    box-shadow: 0.5px 0.5px 13px white;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+.listOpcInvers{
+    list-style-type: none;
+    
+    margin-top: 2em;
+    font-weight: bold;
+    background-color: #404040;
+    height: 1.8em;
+    transform: translate(-25%);
+    text-indent: 55%;
+    border-radius: 50px;
+    line-height: 1.8em;
+    box-shadow: 0.5px 0.5px 13px #404040;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+.listOpcInvers:hover, .listOpcInvers:focus{
+    transform: translate(-15%);
+    box-shadow: 4.5px 2.5px 8px #404040;
+    transition: 0.3s ease;
+}
+
+.boxAd{
+    display: none;
+    height: 20em;
+    width: 25em;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, 0);  
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 999px;
+}
+
+
+input{
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 3em;
+    border: solid 2px #000000;
+    transition: 0.3s ease;
+}
+
+input:hover, input:focus{
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+select{
+    margin-top: 3em; 
+    border-radius: 4px;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+select:hover, select:focus{
+    width: 40%;
+    transition: 0.3s ease;
+}
+
+button{
+    margin-top: 3em;
+    border-radius: 7px;
+}
+
+button:hover, button:focus{
+    border: 0 none;
+    outline: none;
+}
+
+.btnCadastrar{
+    height: 10%;
+    width: 25%;
+    background-color: #000;
+    color: #FFF;
+    font-family: verdana;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.btnCadastrar:hover, .btnCadastrar:focus{
+    background-color: #FFF;
+    width: 35%;
+    color: #000;
+    border: solid 3px #000000;
+    transition: 0.5s ease;
+}
+
+.footerSi{
+    position: fixed;
+    background-color: #404040;
+    margin: 0;
+    width: 99%;
+    bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: cursive
+        
+}
+
+
+
+

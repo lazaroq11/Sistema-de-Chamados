@@ -1,0 +1,368 @@
+h1{
+font-family: verdana;
+text-align: center;
+}
+
+tr{
+    font-family: verdana;
+     border: 1px solid black;
+    
+}
+
+#logoUnebCantoEsquerdoSuperior{
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    width: 7%;
+    height: 15%;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 1px white;
+    transition: 0.6s ease;
+}
+
+#logoUnebCantoEsquerdoSuperior:hover{
+    opacity: 0.4;
+    transition: 0.6s ease;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.spanErro{
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    display: none;
+}
+
+#logoUnebCantoDireito{
+    background-image: radial-gradient(circle,transparent, #FFFFFF 68%), url(../image/This.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 70%;
+    right: 0%;
+    bottom: 0%;
+    box-shadow: none;
+    background-size: contain;
+    transform: translate(28%);
+    opacity: 0.8;
+    border-radius: 90%;
+}
+
+.TabelaTecnico{
+    
+}
+
+.mainContainer{
+text-align: absolute;
+}
+
+#boxAdAdmArea{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #4682B4;
+}
+
+#boxAdTec{
+    display: none;
+}
+
+#boxAdArea{
+    display: none;
+}
+
+textarea{
+    width: 200px;
+    height: 60px;
+}
+
+.divTopo{
+    width: 65%;
+    height: 4.1em;
+    color: aliceblue;
+    position: absolute;
+    background-color: #404040;
+    border-radius: 100px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 1px 1px 6px #404040;
+}
+
+.tituloPrincipal{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    margin: 0;
+    font-family: sans-serif;
+    text-shadow: 0.5px 0.5px 13px #FFFFFF;
+}
+
+body{
+    background-image: url(../image/testBack.png);
+    background-repeat: no-repeat;
+}
+
+.menuOpcoes{
+    position: relative;
+    top: 4.1em;
+    width: 99%;
+    height: 80%;
+}
+
+.menuOpcoesChamado{
+    position: absolute;
+    top: 4.1em;
+    width: 99%;
+    height: 70%;
+}
+
+.menuOpcoesBuscaChamado{
+    position: absolute;
+    top: 4.1em;
+    width: 99%;
+    height: 20%;
+}
+
+.menuOpcoesLogin{
+    position: absolute;
+    top: 4.1em;
+    width: 99%;
+    height: 23%;
+}
+
+
+
+#MenuOpcoesTelaAtendente{
+    height: 180%;
+}
+
+.listaOpcoes{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    padding-top: 6em;
+    padding-left: 3em;
+}
+
+.listOpc:hover, .listOpc:focus{
+    box-shadow: 0px 0px 1px 5px white;
+    transform: translate(-10%);
+    transition: 0.3s ease;
+}
+
+li{
+    list-style-type: none;
+    color: #000000;
+    margin-top: 2em;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    height: 1.8em;
+    text-indent: 1em;
+    border-radius: 50px;
+    line-height: 1.8em;
+    box-shadow: 0.5px 0.5px 13px white;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+.boxAd{
+    display: none;
+    height: 20em;
+    width: 25em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);  
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input{
+    height: 14%;
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 3em;
+    border: solid 2px #000000;
+    transition: 0.3s ease;
+}
+
+input:hover, input:focus{
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+.inptTelaChamado{
+    height: 2%;
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 2em;
+    border: solid 2px #000000;
+    transition: 0.3s ease;
+}
+
+.txtModuloAtendente{
+    background-color: floralwhite; 
+}
+
+.inptTelaChamado:hover, inptTelaChamado:focus{
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+.inptModuloAtendente{
+    height: 1.5%;
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 2em;
+    border: solid 2px #000000;
+    background-color: floralwhite;
+    transition: 0.3s ease;
+}
+
+.inptModuloAtendente:hover, inptModuloAtendente:focus{
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+
+
+button{
+    margin-top: 1em;
+    border-radius: 7px;
+}
+
+button:hover, button:focus{
+    border: 0 none;
+    outline: none;
+}
+
+
+.btnCadastrar{
+    height: 3%;
+    width: 40%;
+    background-color: #000;
+    color: #FFF;
+    font-family: verdana;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.btnCadastrar:hover, .btnCadastrar:focus{
+    background-color: #FFF;
+    width: 45%;
+    color: #000;
+    border: solid 3px #000000;
+    transition: 0.5s ease;
+}
+
+.btnBuscaChamado{
+    height: 18%;
+    width: 41%;
+    background-color: #000;
+    color: #FFF;
+    font-family: verdana;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.btnBuscaChamado:hover, .btnCadastrar:focus{
+    background-color: #FFF;
+    width: 50%;
+    color: #000;
+    border: solid 3px #000000;
+    transition: 0.5s ease;
+}
+
+textarea{
+    width: 60%;
+    height: 8%;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    border: solid 2px #000000;
+    transition: 0.3s ease;
+}
+
+textarea:hover, textarea:focus{
+    width: 90%;
+    height: 15%;
+    transition: 0.3s ease;
+}
+
+select{
+    margin-top: 1em; 
+    border-radius: 4px;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+select:hover, select:focus{
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+
+.footerSi{
+    position: fixed;
+    background-color: #404040;
+    margin: 0;
+    width: 99%;
+    bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: cursive
+        
+}
+
+.usuario{
+	display: block;
+    width: 25em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);  
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#login{
+    position: absolute;
+	height: 100%;
+    top: 50%;
+}
+
+#chamada{
+	height: 180%;
+    top: 10%; 
+}
+
+hr{
+	border-bottom: 1px solid #000;
+}
+
+hgroup{
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50px;
+  padding:2px;
+  border-style: solid;
+  margin: 120px;
+  color:white; 
+}
