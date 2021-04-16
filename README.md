@@ -1,2 +1,2 @@
-# LP3-WORK
-Trabalho de LP3 desenvolvido por Aurelício Pereira, Victor Pereira e Lázaro Queiroz
+# Sistemas de Chamados  
+Sistema de Chamados desenvolvido na disciplina Linguagem de Programação 3 desenvolvido por Aurelício Pereira, Victor Pereira e Lázaro Queiroz
